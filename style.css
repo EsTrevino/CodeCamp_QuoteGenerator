@@ -1,0 +1,96 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.quoteBox {
+  width: 750px;
+  margin: auto;
+  margin-top: 150px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+h2 {
+  word-wrap: normal;
+  color: white;
+  text-align: center;
+  padding: 50px 25px 10px 25px;
+}
+
+h5 {
+  color: white;
+  text-align: right;
+  margin-right: 50px;
+  padding-bottom: 20px;
+}
+
+.btn {
+  color: white;
+  border: none;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-left: 375px;
+  margin-bottom: 20px;
+  outline-style: none;
+}
+
+.btn-media {
+  color: white;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 4px;
+  float: left;
+  margin-left: 20px;
+}
+
+.twitter {
+  margin-left: 70px;
+}
+
+p {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-device-width: 700px) {
+  .quoteBox {
+    width: 90%;
+    margin-top: 50%;
+  }
+
+  .btn {
+    margin-left: 500px;
+  }
+
+  body {
+    font-size: 22px;
+  }
+}
+
+@media screen and (width: 800px) {
+  .quoteBox {
+    width: 90%;
+    margin-top: 50%;
+  }
+
+  .btn {
+    margin-left: 500px;
+  }
+
+  body {
+    font-size: 22px;
+  }
+}
